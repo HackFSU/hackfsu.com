@@ -1,0 +1,35 @@
+html {
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h1 strong {
+  font-weight: 500;
+}
+
+h3 {
+  /* Don't display the ABOUT subheader on site */
+  display: none;
+}
+
+a {
+  color: #bbb;
+  text-decoration: none;
+}
