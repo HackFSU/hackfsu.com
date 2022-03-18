@@ -5,7 +5,7 @@ module.exports = (config) => {
   return {
     dir: {
       input: "src",
-      output: "docs",
+      output: "dist",
       // htmlTemplateEngine: "liquid",
     },
   };
